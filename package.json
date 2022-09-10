@@ -1,0 +1,24 @@
+{
+  "name": "banner-maker",
+  "version": "1.0.0",
+  "description": "This is a web app designed to help automate banner creation for the company 1st Reviews",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsaputo1/banner-maker.git"
+  },
+  "author": "John Saputo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jsaputo1/banner-maker/issues"
+  },
+  "homepage": "https://github.com/jsaputo1/banner-maker#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.1",
+    "node-sass": "^7.0.3"
+  }
+}

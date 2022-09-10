@@ -21,3 +21,7 @@ Thumbs.db
 *.wmv
 
 .vscode/
+
+# Sass Files
+
+scss/
