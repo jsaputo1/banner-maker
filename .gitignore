@@ -22,6 +22,6 @@ Thumbs.db
 
 .vscode/
 
-# Sass Files
+# Compiled css
 
-scss/
+/css
