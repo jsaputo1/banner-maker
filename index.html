@@ -11,28 +11,30 @@
 
 <body>
     <div class="container">
-        <div class="banner-wrap">
+        <div class="banner-wrap py-4 d-none">
         </div>
         <div class="form-wrapper my-6 d-flex justify-content-center">
             <form>
+                <label class="mt-2" for="heading">Image</label><br>
+                <input type="file" accept="image/*" name="image" id="file"><br>
                 <label class="mt-2" for="heading">Heading</label><br>
                 <input type="text" id="heading-input" name="heading"><br>
                 <label class="mt-2" for="sub-heading">Sub Heading:</label><br>
                 <input type="text" id="sub-heading-input" name="sub-heading"><br>
                 <label class="mt-2" for="rating">Rating</label><br>
                 <select name="rating" id="rating-input" class="mt-2">
-                  <option value="1">1</option>
-                  <option value="2">2</option>
-                  <option value="3">3</option>
-                  <option value="4">4</option>
-                  <option value="5">5</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
                 </select><br>
                 <label class="mt-2" for="genre">Genres (separate by comma)</label><br>
                 <input type="text" id="genre-input" name="genre"><br>
                 <label class="mt-2" for="year">Year</label><br>
                 <input type="text" id="year-input" name="year"><br>
-                <span class="btn btn-dark mt-3" id="submit">Submit</span>
-              </form>
+                <span class="btn btn-dark mt-3" id="submit" onchange="loadUrl(event)">Submit</span>
+            </form>
         </div>
     </div>
     <script src="/js/jquery-3.6.1.min.js"></script>
