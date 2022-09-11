@@ -1,6 +1,7 @@
 .banner-wrap {
   background-color: $black;
-
+  max-width: 800px;
+  margin: 0 auto;
   h1,
   h2,
   h3,
@@ -15,11 +16,8 @@
     box-shadow: 0 0 8px 8px black inset;
     width: 720px;
     height: 405px;
-    background-image: url("../bullettrain.jpg");
-    img {
-      width: 100%;
-      object-fit: cover;
-    }
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
   #header {
