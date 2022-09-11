@@ -16,13 +16,17 @@
     box-shadow: 0 0 8px 8px black inset;
     width: 720px;
     height: 405px;
+    max-width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
   }
 
   #header {
+    text-align: center;
   }
   #sub-header {
+    text-align: center;
   }
   #stars {
     img {
@@ -31,6 +35,7 @@
     }
   }
   #category-wrapper {
+    text-align: center;
     .category {
       font-size: 1.33rem;
       color: white;
@@ -54,6 +59,7 @@
     margin-bottom: 0.5rem;
   }
   #year {
+    text-align: center;
     span {
       font-size: 1.33rem;
       color: white;
